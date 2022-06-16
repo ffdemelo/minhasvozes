@@ -1,8 +1,14 @@
 body{
     color: white;
     background-color: rgb(42, 105, 42);
+    font-family: "Patrick Hand", cursive;
 }
 
 a {
     color: white;
+}
+
+iframe {
+    width: 98vw;
+    height: 56vw;
 }
