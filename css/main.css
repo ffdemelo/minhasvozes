@@ -7,8 +7,16 @@ body{
 a {
     color: white;
 }
-
 iframe {
-    width: 98vw;
-    height: 56vw;
+    width: 640px;
+    height: 360px;
+}
+
+
+
+@media screen and (max-width: 480px) {
+    iframe {
+        width: 98vw;
+        height: 56vw;
+    }
 }
