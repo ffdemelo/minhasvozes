@@ -1,4 +1,6 @@
 body{
+    margin: 0;
+    padding: 0 16px;
     color: white;
     background-color: rgb(42, 105, 42);
     font-family: "Patrick Hand", cursive;
@@ -12,11 +14,22 @@ iframe {
     height: 360px;
 }
 
+.list-style {
+    list-style-type: number;
+}
+
+.tachado {
+    text-decoration: line-through;
+}
+
+.bold {
+    font-weight: bold;
+}
 
 
 @media screen and (max-width: 480px) {
     iframe {
-        width: 98vw;
-        height: 56vw;
+        width: calc(100vw - 32px);
+        height: calc(56vw - 32px);
     }
 }
