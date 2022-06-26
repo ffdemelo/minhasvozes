@@ -30,6 +30,6 @@ iframe {
 @media screen and (max-width: 480px) {
     iframe {
         width: calc(100vw - 32px);
-        height: calc(56vw - 32px);
+        height: calc(56vw - 18px);
     }
 }
